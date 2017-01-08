@@ -27,6 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Externals\NPOI.ScratchPad.HWPF.dll = Externals\NPOI.ScratchPad.HWPF.dll
 		Externals\NPOI.XML = Externals\NPOI.XML
 		TagNDrop.ruleset = TagNDrop.ruleset
+		tagndrop.sql = tagndrop.sql
 	EndProjectSection
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TagNDropDB", "TagNDropDB\TagNDropDB.sqlproj", "{845DD680-753B-4FCA-9882-CAC245376BB2}"
