@@ -1,0 +1,22 @@
+﻿<Window x:Class="TagNDrop.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TagNDrop"
+        xmlns:tndl="clr-namespace:TagNDropLibrary;assembly=TagNDropLibrary"
+        xmlns:tndui="clr-namespace:TagNDropUI;assembly=TagNDropUI"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignData Source=TNDSearchModelDesignData.xaml}"
+        Title="Tag N Drop" 
+        Height="400" Width="900"
+        Icon="App.ico"
+        Loaded="Window_Loaded" 
+        Closed="Window_Closed"
+        Closing="Window_Closing"
+        >
+    <Window.DataContext>
+        <tndl:TNDSearchModel/>
+    </Window.DataContext>
+    <tndui:TargetControl></tndui:TargetControl>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Application x:Class="TagNDrop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TagNDrop"
+             xmlns:tndl="clr-namespace:TagNDropLibrary;assembly=TagNDropLibrary"
+             Startup="Application_Startup"
+             Activated="Application_Activated"
+             Deactivated="Application_Deactivated"
+             DispatcherUnhandledException="Application_DispatcherUnhandledException"
+             SessionEnding="Application_SessionEnding"
+             Exit="Application_Exit"
+             >
+    <Application.Resources>
+        <tndl:TNDApplicationModel x:Key="ApplicationModel"></tndl:TNDApplicationModel>
+    </Application.Resources>
+</Application>

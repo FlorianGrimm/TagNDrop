@@ -1,0 +1,19 @@
+﻿<!--<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TagNDropUI">
+    
+</ResourceDictionary>-->
+<TNDDropModel xmlns="clr-namespace:TagNDropLibrary;assembly=TagNDropLibrary">
+    <TNDDropModel.Favorite>
+        <TNDFavorite Name="Kunde 1">
+            <TNDFavorite.Property>
+                <TNDProperty Name="Street" ValueString="Straße 1" />
+            </TNDFavorite.Property>
+        </TNDFavorite>
+        <TNDFavorite Name="Projekt 2">
+            <TNDFavorite.Property>
+                <TNDProperty Name="Kunde" ValueString="Kunde 1" />
+            </TNDFavorite.Property>
+        </TNDFavorite>
+    </TNDDropModel.Favorite>
+</TNDDropModel> 

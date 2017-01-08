@@ -1,0 +1,57 @@
+﻿{
+  "MetaEntities": [
+    {
+      "Name": "Kunde",
+      "IdProperty": "Kunde_Id",
+      "NameProperty": "Kunde_Kunde",
+      "ParentName": null,
+      "ParentIdProperty": null,
+      "ParentNameProperty": null,
+      "MetaStorageName": "Default",
+      "MetaSourceName": "SQL"
+    },
+    {
+      "Name": "Produkt",
+      "IdProperty": "Produkt_Id",
+      "NameProperty": "Produkt_Produkt",
+      "ParentName": "Kunde",
+      "ParentIdProperty": "Produkt_IdKunde",
+      "ParentNameProperty": null,
+      "MetaStorageName": "Default",
+      "MetaSourceName": "SQL"
+    },
+    {
+      "Name": "Projekt",
+      "IdProperty": "Projekt_Id",
+      "NameProperty": "Projekt_Projekt",
+      "ParentName": "Produkt",
+      "ParentIdProperty": "Projekt_IdProdukt",
+      "ParentNameProperty": null,
+      "MetaStorageName": "Default",
+      "MetaSourceName": "SQL"
+    },
+    {
+      "Name": "Lieferant",
+      "IdProperty": "Lieferant_Id",
+      "NameProperty": "Lieferant_Lieferant",
+      "ParentName": null,
+      "ParentIdProperty": null,
+      "ParentNameProperty": null,
+      "MetaStorageName": "Default",
+      "MetaSourceName": "SQL"
+    }
+  ],
+  "MetaStorages": [
+    {
+      "MetaStorageName": "Default",
+      "RootPath": "http://server"
+    }
+  ],
+  "MetaSources": [
+    {
+      "MetaSourceName": "SQL",
+      "Configuration": "Data Source=.;Initial Catalog=TagNDropDB;Integrated Security=True",
+      "AssemblyQualifiedName": "TagNDropBuis.TNDSQLSourceBuis, TagNDropBuis"
+    }
+  ]
+}

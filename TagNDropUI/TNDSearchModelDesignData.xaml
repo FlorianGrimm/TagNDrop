@@ -1,0 +1,24 @@
+﻿<TNDSearchModel xmlns="clr-namespace:TagNDropLibrary;assembly=TagNDropLibrary">
+    <TNDSearchModel.Targets>
+        <TNDTargetModel>
+            <TNDTargetModel.SearchItems>
+                <TNDSearchItem MetaEntityName="All" Search="**" />
+                <TNDSearchItem MetaEntityName="Kunde" Search="K1" />
+                <TNDSearchItem MetaEntityName="Produkt" Search="Pd1" />
+                <TNDSearchItem MetaEntityName="Projekt" Search="Pj1" />
+                <TNDSearchItem MetaEntityName="Lieferant" Search="L1" />
+            </TNDTargetModel.SearchItems>
+            <TNDTargetModel.DropItem>
+                <TNDDropItem Name="Drop1"/>
+            </TNDTargetModel.DropItem>
+            <TNDTargetModel.EntityItems>
+                <TNDEntityItem MetaEntityName="Kunde">
+                </TNDEntityItem>
+            </TNDTargetModel.EntityItems>
+            <TNDTargetModel.StoreItems>
+                <TNDStoreItem Name="Store1" MetaEntityName="Kunde"></TNDStoreItem>
+            </TNDTargetModel.StoreItems>
+        </TNDTargetModel>
+    </TNDSearchModel.Targets>
+    <TNDSearchModel.Status>Status 123</TNDSearchModel.Status>
+</TNDSearchModel> 

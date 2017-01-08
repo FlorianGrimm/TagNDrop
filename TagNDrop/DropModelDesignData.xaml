@@ -1,0 +1,14 @@
+﻿<TNDDropModel xmlns="clr-namespace:TagNDropLibrary;assembly=TagNDropLibrary">
+    <TNDDropModel.Favorite>
+        <TNDFavorite Name="Kunde 1">
+            <TNDFavorite.Property>
+                <TNDProperty Name="Street" ValueString="Straße 1" />
+            </TNDFavorite.Property>
+        </TNDFavorite>
+        <TNDFavorite Name="Projekt 2">
+            <TNDFavorite.Property>
+                <TNDProperty Name="Kunde" ValueString="Kunde 1" />
+            </TNDFavorite.Property>
+        </TNDFavorite>
+    </TNDDropModel.Favorite>
+</TNDDropModel> 
